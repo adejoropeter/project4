@@ -1,0 +1,33 @@
+h1{
+    background-color: red;
+    border-style: double;
+    border-width: 2px;
+    border-color: rebeccapurple;
+    width: 150px;
+    display: block;
+    font-size: 15px;
+    margin: 50px;
+}
+span{
+    background-color: red;
+    border-style: groove;
+    border-width: 2px;
+    border-color: rebeccapurple;
+    width: 150px;
+    display:block;
+    margin: 20px;
+}
+div{
+    background-color: olivedrab;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: olivedrab;
+    padding: 50px;
+    width: 100px;
+    margin: 20px;
+    display: inline-block;
+}
+h1,span{
+    font-size: 50px;
+    display: inline;
+}

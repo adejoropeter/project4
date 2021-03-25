@@ -1,0 +1,40 @@
+body{
+    margin: 250px;
+}
+h1{
+text-align: center;
+}
+
+article>small{
+        text-align:center ;
+}
+section article.small{
+   text-align: center;
+}
+.text{
+    text-align: center 1px;
+    margin-left: 40px;
+}
+main{
+    border-style: solid;
+    border-width: 6px;
+    border-color: black;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    display: block;
+}
+.hope{
+    border-style: groove;
+    border-width: 12px;
+    border-color: rgb(66, 70, 70);
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 30px;
+    margin-left:40px;
+    margin-right: 40px;
+}
+article h1{
+    font-variant: small-caps;
+}

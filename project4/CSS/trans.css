@@ -1,0 +1,59 @@
+body {
+    background-color: rgba(143, 143, 241, 0.472);
+    margin:0 10px ;
+}
+
+header h1 {
+    
+    background-color: rgba(255, 68, 0, 0.78);
+    text-decoration: underline solid rgb(142, 142, 241);
+    transition-property: all;
+    transition-duration:  3s;
+    transition-timing-function: steps(15);
+    text-align: center;
+     width:300px;
+    font-size: 2em;
+    
+}
+header:hover h1{
+    background-color: rgba(185, 11, 11, 0.849);
+    color: rgb(2, 156, 156);
+    text-decoration: overline dashed rgb(149, 30, 70);
+    margin:10px 15px ;
+}
+div[class="radius"]{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(203, 205, 63);
+    transition: margin-left 5s ease-in, border-radius 5s linear ;
+}
+.radius:hover{
+    border-radius:60%;
+    background-color: red;
+    margin-left: 50px;
+}
+#div div{
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    margin-top: 30px;
+    transition: all 3s linear;
+}
+#div:hover div{
+    margin-left:200px;
+}
+#div div:nth-of-type(1){
+    transition:all 3s cubic-bezier(0.39, 0.575, 0.565, 1) 2s;
+}
+#div div:nth-of-type(2){
+    transition:all 3s ease-in 6s;
+}
+#div div:nth-of-type(3){
+    transition:all 5s ease-out 5s;
+}
+#div div:nth-of-type(4){
+    transition:all 3s ease-in-out 1s;
+}
+#div div:nth-of-type(5){
+    transition:all 3s  linear 4s;
+}

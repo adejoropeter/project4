@@ -1,0 +1,42 @@
+section {
+    width: 450px;
+    height: 350px;
+    border: groove 4px rgb(138, 120, 120);
+    padding-right: 30px;
+    position: relative;
+    right: -80px;
+}
+
+article {
+    border: solid 3px silver;
+    margin: 10px;
+}
+
+.title {
+    border: slategrey 2px solid;
+    margin: 10px;
+}
+
+#bord {
+    border: solid 2px slategray;
+    height: 110px;
+    margin: 20px;
+}
+
+#opo {
+    border: solid 2px rgb(134, 132, 132);
+    margin: 10px;
+}
+
+#ope {
+    border: solid 2px rgb(134, 132, 132);
+    margin: 10px;
+}
+
+#ayo {
+    border: solid 2px rgb(134, 132, 132);
+    margin: 10px;
+}
+ #bord{
+    margin-right: 10px;
+}

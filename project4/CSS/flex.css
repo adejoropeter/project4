@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:flex-end;
+
+}
+
+div article {
+    width: 150px;
+    height: 200px;
+}
+
+article:nth-of-type(1n) {
+    height: 150px;
+    width: 100px;
+    font-size: 50px;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: cursive;
+}
+
+article:nth-of-type(2n) {
+    width: 100px;
+    height: 200px;
+    font-size: 50px;
+     text-align: center;
+     text-transform: uppercase;
+     font-weight: 400;
+        font-family: cursive;
+}
+
+article:nth-of-type(3n) {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+     text-align:center;
+     text-transform: uppercase;
+     font-weight: 400;
+        font-family: cursive;
+}

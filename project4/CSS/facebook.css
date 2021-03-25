@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a.bo:hover{
+    text-decoration: none;
+}
+
+main {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 15px;
+    opacity: 0.5;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+div.me :nth-of-type(1n):checked{
+    box-shadow:0 0 0 2px blue ;
+}
+div.pick :nth-of-type(1n):checked{
+    box-shadow:0 0 0 2px rgb(0, 255, 106) ;
+}
+#pick:checked+label{
+    color: powderblue ;
+}
+
+
+input:checked+label{
+    color: pink;
+} 
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 3px pink;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="text"] {
+    outline: none;
+    border: rgb(160, 160, 212) solid 2px;
+    width: 300px;
+    height: 20px;
+}
+
+input[type="password"] {
+    outline: none;
+    border: rgb(106, 106, 138) solid 2px;
+    width: 300px;
+    height: 20px;
+}
+
+button {
+    padding-top: 6px;
+    padding-left: 45%;
+    padding-bottom: 6px;
+    padding-right: 40%;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    background-color: rgb(77, 124, 211);
+    color: white;
+    border: none;
+    font-weight: 800;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type=password]:hover {
+    border-color: blueviolet;
+    border-width: 4px;
+}
+
+input[type=text]:hover {
+    border-color: rgb(226, 43, 171);
+    border-width: 4px;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+div.oral {
+    text-align: center;
+}
+
+button.box {
+    position: absolute;
+    left: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 10px;
+    background-color: rgba(55, 182, 5, 0.856);
+    outline: none;
+}
+
+.box a {
+    color: white;
+}
+
+p {
+    margin-top: 50%;
+    position: absolute;
+    top: 55%;
+}
+
+.oral {
+    text-align: center;
+    /* color: yellow; */
+}
+

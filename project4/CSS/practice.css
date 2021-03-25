@@ -1,0 +1,56 @@
+section {
+    margin-left: 30px;
+    cursor:pointer ;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin-block-start: 2px;
+    width: 600px;
+    position: relative;
+    right: -300px;
+    text-decoration: underline wavy coral;
+}
+
+#heading {
+    color: green;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    border: solid black 2px;
+    width: 400px;
+    position: relative;
+    left: 450px;
+    background-color: wheat;
+}
+::selection {
+    background-color: crimson;
+    color: cyan;
+}
+
+#color {
+    color: red;
+}
+
+.paragraph {
+    position: relative;
+    top: -348px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: cursive;
+    border: solid black 2px;
+    width: 400px;
+    height: 345px;
+    padding-left: 40px;
+    background-color: whitesmoke;
+}
+#link{
+   border:inset rgb(20, 20, 20) 2px ;
+   border-radius: 20px;
+   width: 155px;
+  
+}

@@ -1,0 +1,197 @@
+body {
+    margin: 150px;
+}
+
+input[type="search"] {
+    width: 200px;
+    background-color: oldlace;
+    color: black;
+    border-style: outset;
+    border-width: 3px;
+    border-color: rgb(60, 255, 0);
+    border-left-color: tomato;
+    border-right-color: violet;
+    border-radius: 10px;
+    padding-left: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input[type="password"] {
+    width: 200px;
+    background-color: thistle;
+    color: rgb(0, 0, 0);
+    border-style: dashed;
+    border-color: rgb(125, 124, 139);
+    border-width: 4px;
+    border-radius: 8px;
+    padding-left: 25px;
+    margin-right: 20px;
+}
+
+button[id="login"] {
+    background-color: black;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(221, 201, 85);
+    border-top-color: teal;
+    padding-left: 10px;
+    padding-right: 15px;
+    font: italic 13px san-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+button[id="login"]:hover {
+    background-color: tomato;
+}
+
+button[id="login"]:active {
+    background-color: green;
+}
+
+button .log {
+    text-decoration: none;
+    color: khaki;
+    letter-spacing: 1px;
+}
+
+button[id=signin] {
+    background-color: inherit;
+    border-color: rgb(184, 73, 218);
+    border-style: outset;
+    border-width: 3px;
+    padding-left: 10px;
+    padding-right: 12px;
+    padding-bottom: .0px;
+    font-family: icon;
+    font-weight: 900;
+    font-size: 13px;
+    border-bottom-color: lawngreen;
+    border-top-width: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+button .sign {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+}
+
+button[id="signin"]:hover {
+    background-color: rgb(221, 42, 42);
+}
+
+button[id="signin"]:active {
+    background-color: rgb(73, 143, 91);
+}
+
+header h1 {
+    text-align: center;
+    text-decoration: underline wavy green;
+    color: green;
+    font-weight: normal;
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: 4px;
+    line-height: 40px;
+    border-style: none;
+    border-width: 2px;
+    border-color: turquoise;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-variant: small-caps;
+    margin: 100px;
+}
+
+small em {
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-variant: small-caps;
+}
+
+small .id {
+    text-decoration: none;
+}
+
+abbr {
+    text-decoration-line: none;
+    text-decoration-style: none;
+}
+
+.id:hover {
+    color: rgb(230, 61, 230);
+}
+
+.id:active {
+    color: rgb(196, 195, 157);
+}
+
+.id {
+    color: orchid;
+    background-color: palegreen;
+}
+
+article {
+    background-color: navy;
+}
+
+div button {
+    color: mediumspringgreen;
+    background-color: mediumturquoise;
+    border-color: lightsalmon;
+    border-width: 4px;
+    border-style: ridge;
+    padding: 2px;
+}
+
+div button:hover {
+    background-color: magenta;
+}
+
+div button:active {
+    background-color: whitesmoke;
+}
+
+.note {
+    background-color: deeppink;
+}
+
+::selection {
+    background-color: rgb(88, 143, 74);
+}
+
+.lis {
+    text-decoration: underline solid black;
+    color: coral;
+}
+
+.lis:hover {
+    background-color: cornflowerblue;
+}
+
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 3px blue;
+}
+
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px pink;
+}
+
+input:checked+#col {
+    color: powderblue;
+}
+
+input:checked+label {
+    color: rgba(197, 75, 45, 0.767);
+}

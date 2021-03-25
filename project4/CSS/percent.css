@@ -1,0 +1,49 @@
+section {
+    background-color: hotpink;
+    width: 900px;
+    height: 508px;
+}
+
+article {
+    background-color: khaki;
+    width: 99.4%;
+    height: 20%;
+    border: black 3px solid;
+}
+
+.with {
+    background-color: blue;
+    width: 350px;
+    height: 393px;
+    border: solid 4px black;
+}
+
+img {
+    width: 350px;
+    height: 393px;
+}
+
+h2 {
+    letter-spacing: 2px;
+    font-size: 50px;
+    position: relative;
+    top: -20px;
+    opacity: 0.3;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-style: initial;
+    
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 20%;
+    opacity: 0.5m ;
+}
+input[type="radio"]:checked{
+    box-shadow: 0 0 0 3px pink;
+}
+input:checked +label{
+    color: red;
+    opacity: 0.7;
+}
